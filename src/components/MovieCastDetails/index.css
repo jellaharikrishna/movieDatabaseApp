@@ -1,0 +1,40 @@
+.cast-loader-container {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cast-ul-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cast-list-item {
+  border: 1px solid gainsboro;
+  width: 180px;
+  margin: 5px;
+  flex-grow: 1;
+  border-radius: 5px;
+}
+
+.cast-img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.charcter-name {
+  font-family: Roboto;
+  color: rgb(216, 209, 209);
+  font-size: 12px;
+  margin: 5px;
+}
+
+.original-name {
+  font-family: Roboto;
+  color: rgb(216, 209, 209);
+  font-size: 12px;
+  margin: 5px;
+}

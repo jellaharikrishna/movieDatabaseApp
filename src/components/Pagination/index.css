@@ -1,0 +1,23 @@
+.page-no-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 100px;
+}
+
+.page-no-heading {
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.page-no-control-btn {
+  height: 20px;
+  border-radius: 3px;
+  border-width: 0;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: Roboto;
+  color: white;
+  background-color: #03b3e3;
+}

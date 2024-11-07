@@ -1,0 +1,31 @@
+.searchquery-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.searchquery-movies-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.empty-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.empty-view-heading{
+  font-family: Roboto;
+}
+
+.empty-view-para{
+  font-family: Roboto;
+  margin: 0;
+}

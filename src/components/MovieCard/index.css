@@ -1,0 +1,84 @@
+.movie-li-card {
+  border: 1px solid gainsboro;
+  width: 180px;
+  margin: 5px;
+  flex-grow: 1;
+  border-radius: 5px;
+}
+
+.movie-li-image {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.movie-li-title {
+  font-family: Roboto;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.movie-li-rating {
+  font-family: Roboto;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.movie-li-view-details-btn-link {
+  text-decoration: none;
+}
+
+.movie-li-view-details-btn {
+  margin: 5px;
+  height: 20px;
+  border-radius: 3px;
+  border-width: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: Roboto;
+  background-image: linear-gradient(to right, #8fcea1, #03b3e3);
+}
+
+/*
+.movie-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  color: white;
+  margin-bottom: 15px;
+}
+.img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.wrapper-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0px 10px 0px 10px;
+}
+.movie-name {
+  font-size: 18px;
+}
+.rating {
+  font-size: 16px;
+  font-weight: 530;
+  color: rgb(147, 151, 154);
+}
+
+@media screen and (min-width: 768px) {
+  .movie-card {
+    width: 250px;
+    margin: 10px;
+  }
+}
+
+*/
