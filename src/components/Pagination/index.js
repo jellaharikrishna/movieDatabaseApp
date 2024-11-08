@@ -8,6 +8,7 @@ class Pagination extends Component {
 
   onNextPage = () => {
     const {apiCallback, totalPages} = this.props
+
     this.setState(
       prevState => {
         if (prevState.pageNo < totalPages) {
@@ -15,7 +16,7 @@ class Pagination extends Component {
             pageNo: prevState.pageNo + 1,
           }
         }
-        return prevState
+        return {pageNo: prevState.pageNo}
       },
       () => {
         const {pageNo} = this.state
@@ -26,6 +27,7 @@ class Pagination extends Component {
 
   onPrevPage = () => {
     const {apiCallback} = this.props
+
     this.setState(
       prevState => {
         if (prevState.pageNo > 1) {
@@ -33,7 +35,7 @@ class Pagination extends Component {
             pageNo: prevState.pageNo - 1,
           }
         }
-        return prevState
+        return {pageNo: prevState.pageNo}
       },
       () => {
         const {pageNo} = this.state

@@ -128,5 +128,3 @@ class SingleMovieDetails extends Component {
 }
 
 export default SingleMovieDetails
-
-// <MovieCastDetails id={id} />
